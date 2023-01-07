@@ -56,6 +56,24 @@ header{
     font-size: 13px;
 
 }
+
+@media (max-width: 1500px){
+    header{
+        height: 100px;
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightBox{
+        margin: 12px;
+    }
+}
+
 ul{
     list-style: none;
 }
@@ -114,3 +132,51 @@ h3{
     margin: 0px 15px;
 }
 
+/*footter */
+footer{
+    background-color: rgb(227, 235, 241);
+}
+.footer{
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+
+.app img{
+    width:120px;
+    height:50px;
+    margin: 10px;
+}
+
+.social img{
+    width:30px;
+    height:20px;
+    margin: 8px;
+}
+
+.original-return img{
+    width:55px;
+    height:30px;
+}
+
+.original-return{
+    flex-direction: column;
+    position: relative;
+    bottom:80px;
+}
+
+.ori, .ret{
+    margin: 10px;
+}
+
+.return{
+    margin: 15px;
+}
+
+.align-base{
+    align-self:baseline;
+}
+
+span{
+    font-weight: bold;
+}
